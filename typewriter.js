@@ -3,7 +3,7 @@ const sentence = "hello there from lighthouse labs";
 	let delay = 0;
 	for (const char of newSentence) {
 	setTimeout(() => {
-	process.stdout.write(char);
+		process.stdout.write(char+'\n');;
 	}, delay);
 	delay += 50;
 	}
